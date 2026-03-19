@@ -13,6 +13,7 @@ class Main{
         System.out.println("3. Delete Student");
         System.out.println("4. Print All Students");
         System.out.println("5. Exit");
+        System.out.println("6. Get Student by ID");
 
         while(true){
             switch(sc.nextInt()){
@@ -51,10 +52,13 @@ class Main{
                                 case 5:
                                     StudentRepository.exit();
                                     break;
+                                    case 6:
+                                        System.out.println("Enter Student id to get information:");
+                                        id = sc.nextInt();
+                                        System.out.println(StudentRepository.getStudent(id));
+                                        break;
             }
         }
-
-        System.out.println(StudentRepository.getStudent(4));
     }
 
 
