@@ -1,10 +1,5 @@
-import org.postgresql.shaded.com.ongres.scram.common.exception.ScramRuntimeException;
-
 import java.sql.*;
-import java.util.Map;
-import java.util.Properties;
 import java.util.Scanner;
-import java.util.concurrent.Executor;
 
 class Main{
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
