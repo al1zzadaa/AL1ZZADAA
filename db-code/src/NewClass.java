@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
 public class NewClass {
+    int a = 4;
+    int b = 5;
 }
